@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class BinaryFormatException {
+public class BinaryFormatException
+        extends Exception {
+    BinaryFormatException() {
+        super("Illegal binary character");
+    }
+
+    BinaryFormatException(String message) {
+        super(message);
+    }
 }
+
+
