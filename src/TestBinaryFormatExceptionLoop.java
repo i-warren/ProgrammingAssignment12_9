@@ -58,7 +58,7 @@ public class TestBinaryFormatExceptionLoop {
         if (ch == '1' || ch == '0') {
             return ch - '0';
         }
-        throw new BinaryFormatException("Invalid Binary Character: " + ch );
+        throw new BinaryFormatException();
     }
 }
 
